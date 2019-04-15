@@ -60,7 +60,7 @@ Task Build -Depends Test {
 
     # Bump the module version
     #Update-Metadata -Path $env:BHPSModuleManifest
-    Write-Host "Skipping Metadata Updates"
+    Write-Host "Skipping Metadata Updates for now"
 }
 
 Task Deploy -Depends Build {
