@@ -12,7 +12,7 @@
     RootModule        = ".\MailHelper.psm1"
 
     # Version number of this module.
-    ModuleVersion     = '0.1.0'
+    ModuleVersion     = '0.1.1'
 
     # Supported PSEditions
     # CompatiblePSEditions = @()
@@ -30,7 +30,7 @@
     Copyright         = '(c) 2019 Jose Cherian. All rights reserved.'
 
     # Description of the functionality provided by this module
-    # Description = ''
+    Description       = 'A module to send emails using credencials from credencial manager'
 
     # Minimum version of the Windows PowerShell engine required by this module
     # PowerShellVersion = ''
