@@ -12,7 +12,7 @@
     RootModule        = ".\MailHelper.psm1"
 
     # Version number of this module.
-    ModuleVersion     = '0.1.1'
+    ModuleVersion     = '0.1.0'
 
     # Supported PSEditions
     # CompatiblePSEditions = @()
@@ -51,7 +51,7 @@
     # ProcessorArchitecture = ''
 
     # Modules that must be imported into the global environment prior to importing this module
-    RequiredModules   = @(@{ModuleName = 'CredentialManager'; RequiredVersion = '2.0'; GUID = '7db8ecb9-3b2a-437f-a26c-c3983ec8a845' })
+    RequiredModules   = @(@{ModuleName = 'CredentialManager'; RequiredVersion = '2.0'; })
 
     # Assemblies that must be loaded prior to importing this module
     # RequiredAssemblies = @()
