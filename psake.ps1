@@ -56,10 +56,10 @@ Task Build -Depends Test {
     $lines
     
     # Load the module, read the exported functions, update the psd1 FunctionsToExport
-    Set-ModuleFunctions
+    #Set-ModuleFunctions
 
     # Bump the module version
-    Update-Metadata -Path $env:BHPSModuleManifest
+    #Update-Metadata -Path $env:BHPSModuleManifest
     Write-Host "Skipping Metadata Updates for now"
 }
 
