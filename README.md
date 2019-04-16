@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/f8e6meldd3ehv661/branch/master?svg=true)](https://ci.appveyor.com/project/josecherian/mailhelper/branch/master)
+
 # MailHelper
 A Power shell module to send mails easily. Currently it is in experimental stage.
 
